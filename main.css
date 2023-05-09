@@ -1,0 +1,47 @@
+/*I'm having to override Bootstrap's CSS here
+with '!important'*/
+body {
+	background-color: lightgray !important;
+}
+
+.container {
+	font-family: "Arial", sans-serif;
+}
+
+/*Making the first .col in the first .row part
+of a .top class so that it can get some special 
+styles.*/
+.top {
+	background-color: #03256C;
+	color: white;
+	text-align: center;
+	padding: 15px 0px;
+	outline: 3px solid white;
+}
+
+.highlight {
+	font-family: "Lucida", monospace;
+	color: red;
+	font-size: 14px;
+}
+
+img {
+	width: 100%;
+}
+
+.graphic {
+	background-color: white;
+	padding: 8px;
+}
+
+/*If you're curious, this is a way to select
+every class where the name begins with "col"*/
+[class^="col"] {
+	padding: 15px 0px;
+	background-color: #55e0fa;
+	outline: 3px solid white;
+}
+
+.caption {
+	margin-top: 10px;
+}
